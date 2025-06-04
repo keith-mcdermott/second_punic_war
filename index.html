@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Second Punic War</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./plugins/leaflet-sidebar.css">
+    <link rel="icon"  href="./images/world.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="    crossorigin=""/>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./plugins/leaflet.zoomhome.css">
+    <link rel="stylesheet" href="./plugins/leaflet.legend.css">
+  </head>
+  <body>
+
+    <header class="header">Major Battles of the Second Punic War</header>
+
+    <main>
+      <!-- Map -->
+      <div id="map">
+        <!-- Sidebar -->
+        <div id="sidebar" class="sidebar collapsed">
+          <!-- Nav tabs -->
+          <div class="sidebar-tabs">
+            <ul role="tablist">
+              <li><a href="#home" role="tab"><i class="fa fa-info-circle fa-lg"></i></a></li>
+            </ul>
+          </div>
+          <!-- Tab panes -->
+          <div class="sidebar-content">
+              <div class="sidebar-pane" id="home">
+                  <h1 class="sidebar-header fs-5">
+                    Rome and Carthage
+                    <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+                  </h1>
+                  <p class="fs-6">The First Punic War ended in a Roman victory in 241 BC. After the war, Carthage expanded its holdings in Iberia, where in 219 BC a Carthaginian army under Hannibal sacked the pro-Roman city of Saguntum. In early 218 BC Rome declared war on Carthage, beginning the Second Punic War.<br><br>Hannibal surprised the Romans by marching his army overland from Iberia,and won crushing victories over the Romans at the battles of Trebia (218 BC), Lake Trasimene (217 BC), and Cannae (216 BC), where he annihilated the largest army the Romans had ever assembled.<br><br>The Roman commander Scipio invaded Carthaginian Africa in 204 BC, compelling the Carthaginian Senate to recall Hannibal's army from Italy. The final engagement of the war took place between armies under Scipio and Hannibal at Zama in 202 and resulted in Hannibal's defeat and in Carthage suing for peace. (Source: <a href="https://en.wikipedia.org/wiki/Second_Punic_War">Wikipedia</a>)<br><br>Select a battle below for more information.</p>
+                  <!-- Nav buttons -->
+                  <button class="btn battle-btn btn-light" data-battle="Battle of the Trebia River">Battle of the Trebia River (218 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Battle of Lake Trasimene">Battle of Lake Trasimene (217 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Battle of Geronium">Battle of Geronium (217 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Battle of Cannae">Battle of Cannae (216 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Siege of Syracuse ">Siege of Syracuse (213-212 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Battle of Baecula">Battle of Baecula (208 BC)</button><br>
+                  <button class="btn battle-btn btn-light" data-battle="Battle of the Metaurus">Battle of the Metaurus (207 BC)</button><br>
+                  <button class=" btn battle-btn btn-light" data-battle="Battle of Zama">Battle of Zama (202 BC)</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src = "./plugins/leaflet-sidebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="./plugins/leaflet.zoomhome.js"></script>
+    <script src="./plugins/leaflet.legend.js"></script>
+  </body>
+</html>

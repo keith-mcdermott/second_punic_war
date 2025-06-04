@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#map {
+    width: 100%;
+    height: 90vh;
+}
+
+.header {
+    font-size: 40px;
+    color:rgb(126, 9, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.leaflet-tooltip.my-labels {
+    background: transparent;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    border: transparent;
+    box-shadow: none;
+    font-weight: 1000;
+    border-radius: 3px;
+    padding-right:0;
+    font-weight: 200;
+}
+
+.leaflet-tooltip-top:before, 
+.leaflet-tooltip-bottom:before, 
+.leaflet-tooltip-left:before, 
+.leaflet-tooltip-right:before {
+    border: none !important;
+}
+
+.leaflet-legend-title {
+    font-size: 16px;
+}
+
+.leaflet-legend-item {
+    font-size: 13px;
+}
